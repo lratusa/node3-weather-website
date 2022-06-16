@@ -21,7 +21,7 @@ const forecast = (lat, lon, callback) => {
             }else if (UVIndex <= 2) {
                 UVMsg = 'Low danger from the sun\'s UV rays. Wear sunglasses on bright days.'
             } else if (UVIndex <= 5) {
-                UVMsg = 'Moderate risk of harm from unprotected sun exposure.  wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.'
+                UVMsg = 'Moderate risk of harm from unprotected sun exposure. Wear protective clothing, a wide-brimmed hat, and UV-blocking sunglasses.'
             } else if (UVIndex <= 7) {
                 UVMsg = ' high risk of harm from unprotected sun exposure. Protection against skin and eye damage is needed.'
             } else if (UVIndex <=10) {
